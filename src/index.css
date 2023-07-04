@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    background-color: #111111;
+    color:rgba(255, 255, 255, 0.5);
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid;
+    font-size: 25px;
+}
+
+.post-container{
+    padding: 40px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4 , auto);
+}
+
+.post{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+p{
+    overflow: hidden;
+}
+
+/* .data p:nth-child(2){
+    margin: 20px 0;
+    max-height: 22px;
+}
+
+.data p:nth-child(3){
+    max-height: 44px;
+} */
+
+button{
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+button:hover{
+    color: blue;
+}
+
+.selected-post{
+    border: 1px solid;
+    border-radius: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    padding: 10px;
+    gap: 10px
+}
+
+.selected-post p{
+    padding: 0px 20px;
+}
+
+.selected-post img{
+   width: 100%;
+}
+
+h2{
+    padding: 0 20px;
+    text-align: center;
+}
+
+
